@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Big Header and Subheader with Table</title>
+  <link rel="stylesheet" href="./style.css" >
+ <style>
+    .container {
+      max-width: 400px;
+      margin: 0;
+      padding: 20px;
+      border: 1px solid black;
+    }
+
+    label {
+      display: inline-block;
+      width: 100px;
+    }
+
+    input[type="text"],
+    select {
+      width: 200px;
+    }
+    h1 {
+      font-size: 24px;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      text-align: left;
+    }
+
+    table {
+      border-collapse: collapse; 
+      border: #000000 solid; 
+      width: 50%;
+      margin-top: 20px;
+      background-color: #ffffff;
+    }
+
+    th, td {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      padding: 8px;
+      border: 1px solid #000000;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+
+        <form>
+          <label for="name">Full name:</label>
+          <input type="text" id="name" name="name"><br><br>
+    
+          <label for="Address">Address:</label>
+          <input type="text" id="Address" name="add"><br><br>
+    
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city"><br><br>
+    
+          <label for="State">State:</label>
+          <input type="text" id="State" name="add"><br><br>
+          <label for="Zip">Zip:</label>
+          <input type="text" id="Zip" name="add"><br><br>
+          <label for="city">Magazine</label>
+          <select name="city" id="city">
+            <option value="newsweek">newsweek</option>
+            <option value="teen">Teen</option>
+            <option value="vouge">Vouge</option>
+            <option value="people">People</option>
+          </select><br><br>
+    
+          <label for="subscription">subscription</label>
+          <input type="radio" id="subscription-years" name="subscription" value="years">
+          <label for="subscription-years">2 Years</label>
+          <input type="radio" id="subscription-year" name="subscription" value="year">
+          <label for="subscription-year">1 Year</label><br><br>
+        
+          <input type="submit" value="send your order">
+        
+        </form>
+      </div>
+  <h1>Images in Tables</h1>
+  <h2>Our</h2>
+  <h2><span style="text-decoration: line-through;">My</span>  favorite App</h2>
+  <table>
+    <tr>
+      <th>Apps</th>
+      <th>App's Official link</th>
+    </tr>
+    <tr>
+      <td><img src="../facebook-logo-icon-facebook-logo-png-transparent-svg-vector-bie-supply-16.png" width="100" height="100" alt="facebook"></td>
+      <td><a href="https://www.facebook.com/" target="_blank">Facebook</a></td>
+    </tr>
+    <tr>
+        <td><img src="../1658586823instagram-logo-transparent.png" width="80" height="80" alt="Instagram"></td>
+      <td><a href="https://www.instagram.com/" target="_blank">Instagram</a></td>
+    </tr>
+    <tr>
+      <td><img src="../linkedin-logo-linkedin-icon-transparent-free-png.webp" width="110" height="110" alt="Linkedin"</td>
+      <td><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></td>
+    </tr>
+  </table>
+</body>
+</html>

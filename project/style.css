@@ -1,0 +1,102 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        @keyframes colorChange {
+            0%   {background-color: #8D7B68;}
+            25%  {background-color: #A4907C;}
+            50%  {background-color: #C8B6A6;}
+            75%  {background-color: #F1DEC9;}
+            100% {background-color: #EDE9D5;}
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 2px;
+            animation-name: colorChange;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            background-color: red; /* Initial background color */
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .task-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .task-groups {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .task-group {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .task-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .task-list li {
+            margin: 10px 0;
+        }
+
+        .task-list a {
+            display: block;
+            padding: 10px;
+            background-color: #FF7900;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        .task-list a:hover {
+            background-color: #FF7900;
+            opacity: 0.8;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .footer-links img {
+            width: 125px;
+            height: 125px;
+            vertical-align: middle;
+        }
